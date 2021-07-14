@@ -1,5 +1,5 @@
 # very-serious-video-project
-This is an extremely messy Python script I wrote to...render a video in an unusual way.
+This is an extremely messy Python script I wrote to render a video in an unusual way.
 
 [Video Link](https://www.youtube.com/watch?v=K1dLxK4mfVk)
 
@@ -7,7 +7,7 @@ This is an extremely messy Python script I wrote to...render a video in an unusu
 Although the process I used could be applied to any video, I hardcoded some values to save time and get the exact results I wanted.
 It shouldn't be too hard to adjust the values, or even genericize the entire program if you're feeling bold.
 First, I downsized the video to 40x30 and split the individual frames into images with ffmpeg.
-These steps that could easily be integrated into the script, even if via a wrapper.
+These steps could easily be integrated into the script, even if via a wrapper.
 Again, I was definitely making this more with the end goal in mind than for the sake of the process.
 I processed each frame in Python, doing calculations like color analysis (although that's really stretching the term, considering the "algorithm" I came up with).
 Using PyGame, I rendered the pixels as color-matched sprites in varying stages of the animation to create a wave effect.
